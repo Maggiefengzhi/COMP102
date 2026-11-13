@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=PatternsDrawer
+comment0.text=\ PatternsDrawer\:\ \nDraws\ four\ different\ repetitive\ patterns.
+comment1.params=
+comment1.target=void\ drawStar()
+comment1.text=\ \n\ Draws\ a\ star\ pattern\ consisting\ of\ a\ circle\ containing\ black\ rays\ \n\ separated\ by\ white\ regions.\n\ Asks\ the\ user\ for\ the\ number\ of\ rays,\ and\ calculates\ the\ angle\ of\ the\ rays.\n\ Hint\:\ use\ filled\ arcs\ to\ draw\ the\ rays,\n
+comment2.params=
+comment2.target=void\ drawTriGrid()
+comment2.text=\ \n\ Draws\ a\ triangular\ grid\ of\ equally\ sized\ squares\ that\ creates\ the\n\ optical\ illusion\ of\ dark\ circles\ appearing\ at\ the\ intersections.\ \n\ The\ gap\ between\ the\ squares\ should\ be\ 1/3\ the\ size\ of\ the\ squares.\n\ It\ asks\ the\ user\ for\ the\ number\ of\ rows.\ \n\ The\ top\ row\ should\ have\ one\ square;\ the\ next\ row\ should\ have\ two\ squares;\n\ and\ so\ on.\ The\ last\ row\ will\ have\ as\ many\ squares\ as\ there\ are\ rows.\n\ Hint\:\ requires\ a\ nested\ loop\n
+comment3.params=
+comment3.target=void\ drawRandomCircles()
+comment3.text=\n\ Draws\ a\ rectangle\ containing\ a\ row\ of\ randomly\ sized\ blue\ circles\n\ that\ fit\ within\ the\ rectangle.\n\ The\ width\ of\ the\ rectangle\ is\ PATTERN_SIZE.\n\ The\ method\ asks\ user\ for\ the\ height\ of\ the\ rectangle,\ which\ must\ be\n\ less\ than\ the\ width\:\ the\ method\ should\ keep\ asking\ for\ a\ height\ until\n\ the\ user\ gives\ a\ height\ less\ than\ the\ width.\n\ It\ then\ draws\ the\ rectangle\ and\ fills\ it\ from\ left\ to\ right\ with\n\ randomly\ sized\ blue\ circles\ (each\ with\ a\ diameter\ between\ 3\ units\ and\n\ the\ specified\ height)\n\n\ Hint\:\ use\ a\ while\ loop\ to\ ask\ for\ the\ height,\n\ Hint\:\ use\ another\ while\ loop\ to\ work\ out\ the\ size\ and\ draw\ each\ circle,\n\ \ stopping\ when\ the\ next\ circle\ won't\ fit.\n\ \ At\ the\ end,\ if\ there\ is\ still\ room,\ draw\ the\ appropriate\ sized\ circle\n\ \ to\ fill\ the\ gap.\n
+comment4.params=
+comment4.target=void\ drawSpiralPath()
+comment4.text=\n\ Draws\ a\ square\ spiral\ pathway\ made\ of\ small\ circles\ arranged\ in\ the\n\ shape\ of\ a\ square\ spiral\n\ \ Asks\ the\ user\ for\ the\ size\ of\ the\ circles\n\ \ \ and\ computes\ the\ number\ of\ circles\ needed\ to\ fit\ the\ PATTERN_SIZE\n\ \ Then\ draws\ all\ the\ circles\ from\ the\ outside\ to\ the\ inside.\n\ \ The\ gap\ between\ the\ legs\ of\ the\ spiral\ should\ be\ the\ width\ of\ the\ circles\n
+comment5.params=
+comment5.target=void\ setupGUI()
+comment5.text=\n\ Set\ up\ the\ GUI\ and\ buttons\n
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ main\:\ create\ object\ and\ call\ setupGUI\n
+comment7.params=
+comment7.target=void\ run()
+numComments=8

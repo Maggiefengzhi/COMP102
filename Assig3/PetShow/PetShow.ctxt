@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PetShow
+comment0.text=\n\ Program\ to\ create\ simple\ animated\ animal\ character\ using\ the\n\ Animal\ class.\ \ \n
+comment1.params=
+comment1.target=void\ animate()
+comment1.text=\ CORE\n\ animate\ creates\ two\ or\ several\ animals\ on\ the\ window.\n\ \ Then\ animates\ them\ according\ to\ a\ fixed\ script\ by\ calling\ a\ series\n\ \ of\ methods\ on\ the\ animals.\n
+comment2.params=
+comment2.target=void\ threeAnimalsRoutine()
+comment2.text=\n\ \ threeAnimalsRoutine\ creates\ three\ animals\ on\ the\ window.\n\ \ Then\ makes\ each\ animal\ do\ the\ same\ routine\ in\ turn.\n\ \ You\ should\ define\ a\ routine\ method,\ and\ threeAnimalsRoutine\n\ \ \ should\ call\ the\ routine\ method\ three\ times,\ to\ make\n\ \ \ each\ of\ the\ three\ animals\ perform\ the\ routine\ in\ turn.\n
+comment3.params=animal
+comment3.target=void\ routine(Animal)
+comment4.params=
+comment4.target=void\ newanimate()
+comment5.params=
+comment5.target=void\ setupGUI()
+comment5.text=\n\ Make\ buttons\ to\ let\ the\ user\ run\ the\ methods\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Create\ object\ and\ call\ setupGUI\ on\ it\n
+comment7.params=
+comment7.target=void\ run()
+numComments=8

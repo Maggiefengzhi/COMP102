@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ThreeStripeFlagDrawer
+comment0.text=CORE\:\ draw\ three-striped\ flags
+comment1.params=
+comment1.target=void\ drawFlags()
+comment1.text=\n\ Asks\ user\ for\ a\ position\ and\ three\ colours,\ then\ calls\ the\n\ drawThreeStripeFlag\ method,\ passing\ the\ appropriate\ arguments\n
+comment2.params=left\ top\ stripe1\ stripe2\ stripe3
+comment2.target=void\ drawThreeStripeFlag(double,\ double,\ java.awt.Color,\ java.awt.Color,\ java.awt.Color)
+comment2.text=\ \ \ CORE\n\ draws\ a\ three\ colour\ flag\ at\ the\ given\ position\ consisting\ of\n\ three\ equal\ size\ stripes\ of\ the\ given\ colors\n\ The\ stripes\ are\ horizontal\n\ The\ size\ of\ the\ flag\ is\ specified\ by\ the\ constants\ FLAG_WIDTH\ and\ FLAG_HEIGHT\n
+comment3.params=
+comment3.target=void\ setupGUI()
+comment3.text=\n\ Setup\ the\ GUI\ with\ buttons\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ Create\ object\ and\ call\ setupGUI\ on\ it\n
+comment5.params=
+comment5.target=void\ run()
+numComments=6

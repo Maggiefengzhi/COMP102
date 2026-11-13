@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Emoji
+comment0.text=\n\ An\ Emoji\ represents\ an\ object\ that\ can\ be\ thrown\ through\ the\ air,\ or\ knocked\ down\n\ \ onto\ the\ ground\ by\ another\ Emoji.\n\ \ An\ Emoji\ can\ be\ created\ at\ a\ position,\ and\ it\ will\ appear\ at\ that\ place.\n\ \ An\ Emoji\ can\ be\ launched\ with\ a\ velocity\ (horizontal\ and\ vertical\ speeds)\n\ \ The\ simulation\ can\ call\ the\ step()\ method\ to\ make\ the\ Emoji\ move\ one\ step\ in\ its\ current\ direction\n\ \ If\ a\ moving\ Emoji\ bumps\ into\ a\ stationary\ Emoji,\ it\ will\ launch\ the\ other\ Emoji\ towards\ the\ ground.\n\ There\ are\ a\ set\ of\ different\ emoji\ images,\ all\ of\ size\ 40x40\n
+comment1.params=x\ h\ name
+comment1.target=Emoji(double,\ double,\ java.lang.String)
+comment1.text=\n\ Construct\ a\ new\ Emoji\ object.\n\ \ \ \ Parameters\ are\n\ \ \ the\ initial\ position\ (x\ of\ the\ center,\ and\n\ \ \ \ \ \ the\ height\ of\ the\ bottom\ of\ the\ emoji\ above\ the\ ground),\n\ \ \ the\ name\n\ \ \ \ Stores\ the\ parameters\ into\ fields\ \n\ \ SHOULD\ NOT\ DRAW\ THE\ EMOJI\!\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Draw\ the\ Emoji\ on\ the\ Graphics\ Pane\ centered\ at\ its\ current\ position\n
+comment3.params=
+comment3.target=void\ step()
+comment3.text=\n\ If\ the\ emoji's\ speed\ is\ not\ 0,\ move\ the\ Emoji\ one\ step\ (DO\ NOT\ REDRAW\ IT)\n\ \ \ \ Change\ its\ height\ and\ x\ position\ using\ the\ vertical\ and\ horizonal\ steps\n\ \ \ \ Reduce\ its\ vertical\ speed\ each\ step\ (due\ to\ gravity),\ \n\ \ \ \ If\ it\ would\ hit\ the\ ground,\ then\ change\ its\ y\ position\ so\ that\ it\ is\n\ \ \ \ \ resting\ on\ the\ ground\ and\n\ \ \ \ \ set\ its\ speed\ (horizontal\ and\ vertical)\ to\ 0.\n
+comment4.params=
+comment4.target=double\ getHeight()
+comment4.text=\n\ Return\ the\ height\ of\ the\ bottom\ of\ the\ emoji\ above\ the\ ground\n
+comment5.params=
+comment5.target=double\ getX()
+comment5.text=\n\ Return\ the\ horizontal\ position\ of\ the\ emoji\n
+comment6.params=
+comment6.target=double\ getSpeed()
+comment6.text=\n\ Return\ the\ speed\ of\ the\ emoji\n
+comment7.params=xSpeed\ ySpeed
+comment7.target=void\ launch(double,\ double)
+comment7.text=\n\ Launch\ the\ emoji\ at\ the\ specified\ horizontal\ and\ vertical\ speeds\n
+comment8.params=other
+comment8.target=boolean\ touching(Emoji)
+comment8.text=\n\ Return\ true\ if\ this\ emoji\ is\ touching\ the\ other\ emoji\ (and\ isn't\ the\ same\ emoji)\n
+comment9.params=other
+comment9.target=void\ bump(Emoji)
+comment9.text=\n\ Make\ this\ emoji\ bump\ the\ other\ emoji\ and\ make\ it\ start\ moving.\n\ Assumes\:\ this\ \!\=\ other,\ this\ is\ moving,\ other\ is\ not\ moving\n\ Simple\ version\:\ just\ make\ the\ other\ start\ to\ move\ a\ little\ bit.\n\ Better\ version\:\ do\ a\ proper,\ elastic\ collision.\n
+numComments=10

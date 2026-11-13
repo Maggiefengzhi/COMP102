@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Tile
+comment0.text=\n\ Tile\n\ Represents\ a\ single\ tile.\n
+comment1.params=
+comment1.target=Tile()
+comment1.text=\ \n\ Construct\ a\ new\ Tile\ object\n
+comment2.params=
+comment2.target=java.lang.String\ getLetter()
+comment2.text=\n\ Return\ the\ letter\ on\ the\ tile\n
+comment3.params=x\ y
+comment3.target=void\ draw(double,\ double)
+comment3.text=\n\ Draw\ the\ tile\n
+numComments=4
